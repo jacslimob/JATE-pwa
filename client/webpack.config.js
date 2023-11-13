@@ -67,8 +67,8 @@ module.exports = () => {
             options: {
               // need to look up what this does
               presets: ['@babel/preset-env'],
-              // may not need object-rest-spread
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              // change this along with dependencies
+              plugins: ['@babel/plugin-transform-object-rest-spread', '@babel/transform-runtime'],
             },
           },
         },
